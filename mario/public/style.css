@@ -1,0 +1,25 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #87ceeb;
+  font-family: -apple-system, system-ui, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  color: #111;
+}
+.hud {
+  position: fixed;
+  top: 8px;
+  left: 12px;
+  right: 12px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  z-index: 10;
+  mix-blend-mode: multiply;
+}
+#game {
+  display: block;
+  width: 100vw;
+  height: calc(100vh);
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
